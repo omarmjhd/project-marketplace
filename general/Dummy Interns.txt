@@ -1,0 +1,54 @@
+
+Name
+Skills
+Hours 
+School
+Major
+Contact Info
+Completed Project Title
+
+111111111111111111111
+
+Manuel D. Knight
+Project Management; Microsoft Project; Data Analysis; Java Development; Business Marketing; 
+6
+George Washington University
+Manuel.d.knight@boeing.com
+Electrical Wire Supplier Analysis; 787 FOD Reduction;
+
+2222222222222222222222
+
+Virginia J. Galeana
+Lean Analysis; 5S Implementation; Work Measurement Analysis; Microsoft Excel; Visio; Data Analysis; 
+10
+Cal Poly San Luis Obispo
+Virginia.j.Galeana@boeing.com
+WMA of Electrical Assembly for 737; Database Integration of Work Orders;
+
+3333333333333333333
+
+Joseph M. Marquez 
+Brand Positioning; PR with Educational Influences; Product Market Positioning;
+3
+University of Southern California
+Joseph.m.marquez@boeing.com
+Media Relations with 787; 787 Product Brand Positioning;
+
+4444444444444444444
+
+Fredrich F. McCloud
+AutoCad; MATLAB; Fluid Mechanics; Stress Analysis; Transient Thermal Analysis
+4
+Embry–Riddle Aeronautical University
+Fredrich.F.McCloud@boeing.edu
+Preflight Thermal Testing; Main Wheel Well Design Reviews;
+
+5555555555555555555
+
+Chanel J. Bonnette
+Python; Javascript; Labview; Java; HTML; CSS; Project Management
+8
+Chanel.j.Bonnette@boeing.com
+Ideas and Innovation Management Platform; PIS Website Development; Server Automation with Pearl;
+
+

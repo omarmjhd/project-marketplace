@@ -1,0 +1,70 @@
+/* Random Image Rotator - rotates images, alt text and associated links */ 
+/* Last updated 11/02/08 */
+
+function imgRotator() {
+
+// define variables 
+var imgNum;
+var rtnPicture;
+var image_alt;
+var weblink;
+
+// Begin: image, alt text, link arrays. Keep these three arrays in sync!
+
+var image = new Array();
+  image[00]= "one";
+  image[01]= "two";
+  image[02]= "three";
+  image[03]= "four";
+
+// list of alt texts
+var alttext = new Array();
+  alttext[00]= "Alt Text One";
+  alttext[01]= "Alt Text Two";
+  alttext[02]= "Alt Text Three";
+  alttext[03]= "Alt Text Four";
+  
+// list of links
+var weblinks = new Array();
+  weblinks[00]= "http://bess.web.boeing.com/";
+  weblinks[01]= "http://alki.ca.boeing.com/finance/fin&bus/index.html";
+  weblinks[02]= "http://companyfitness.web.boeing.com/";
+  weblinks[03]= "http://bess.web.boeing.com/";
+
+// End: image, alt text, link arrays. Keep these three arrays in sync!
+
+// set the random image number based on the number of entries in the 'image' array 
+imgNum = Math.floor( Math.random() * image.length );
+// error trap: just in case browser capability was exceeded
+if(!isNaN(imgNum)) {
+// good to go 
+// use the next commented statement only if you have no alt text (naughty!) or image links 
+// rtnPicture = "<IMG SRC='" + image[imgNum] + "' WIDTH='500' HEIGHT='400' BORDER='0' ALIGN='center'>"
+// build the code string - the link followed by the image with the alt text 
+// 'rtnPicture' will contain the generated img HTML wrapped in an anchor tag 
+//rtnPicture = '<div id="personalityrotator" class="' + image[imgNum] + '"' + ' title="' + alttext[imgNum] + '"' + 'a href="'  + weblinks[imgNum] + '"></div>';
+//rtnPicture = '<div id="personalityrotator" class="' + image[imgNum] + '"' + ' title="' + alttext[imgNum] + '"' + ' a href="'  + weblinks[imgNum] + '">'+ weblinks[imgNum] +' xxxxxxxxx</a></div>';
+
+//rtnPicture = '<div id="personalityrotator" class="' + image[imgNum] + '"' + ' title="' + alttext[imgNum] + '">'  + '<a href="'  + weblinks[imgNum] + '">'+ weblinks[imgNum] +'</a></div>';
+//rtnPicture = '<div id="personalityrotator" class="'+ image[imgNum] +'">'+ weblinks[imgNum] +'</div>';
+
+rtnPicture = '<a href="' + weblinks[imgNum] +'"><div id="personalityrotator" class="'+ image[imgNum] +'" title="' + alttext[imgNum] +'"></div></a>';
+
+// window.alert(alttext[imgNum]);
+// window.alert('This is the string I am sending' + rtnPicture);
+// Set the td title tag with the alt text for the image
+
+// Commented next two lines because we did not use the table tags
+//var image_alt = document.getElementById('image_id');
+//image_alt.title = alttext[imgNum];
+}
+
+else {
+// not good (too many images for the browser), so load this image as a default 
+rtnPicture = "<IMG SRC='_images/pz-183-red.jpg' ALT='Your Alt Text' BORDER='0' ALIGN='center'>" + " ";
+}
+
+return rtnPicture;
+}
+
+

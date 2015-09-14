@@ -1,0 +1,43 @@
+Dummy Projects
+
+
+Title
+Background
+Expected Deliverables
+Scope
+Estimated Duration
+Required Skills
+Manager/POC
+Business Unit/Organization
+Location (remote work?)
+Associated Team Members
+	Name (position) - Email@.com
+Chargeline
+Additional Notes
+
+------
+
+
+Paint Heat Cycle Data Analysis
+
+In May of 2015 a vendor to Boeing completed upgrades of the heating systems in all Seattle hangars.  One of these upgrades included the ability to track data for the heat of each hangar in six minute intervals.  With these upgrades all six hangars now have this ability.  Data has been logged since the beginning of May and is currently available as a Microsoft excel file.
+By understanding when heat cycles occur and how long their durations are, you can tell a lot about the history of each paint hangar in terms of how well the teams performed.  This data will also be useful as a baseline for the day 2+ operating plans which the paint IE team is currently considering.  Currently, there has been minimal analysis performed on this data and the team is looking for recommendations.
+
+-	A “heat cycle profile” including durations, max temp, and quantity for all customers which were in hangars P1-P6 from May 2015-current
+-	Variance analysis for common customers and hangars to determine useful trends 
+-	Recommendations for visuals/metrics to share with paint operations team on a regular basis
+-	A future state plan for how IE/operations can utilize data in the future 
+
+All analysis and recommendations that can be extracted from the current paint heat cycle data from May 2015 to the current date
+
+This project will last approximately one month and occur through August 2015
+
+Data Analytics; Microsoft Excel; VB Programming;
+
+Bradley K. Matlock - bradley.k.matlock@boeing.com
+
+Field IE 
+
+[Insert Chargeline]
+
+N/A [Notes]
