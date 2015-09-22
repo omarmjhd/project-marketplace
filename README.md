@@ -18,7 +18,7 @@ We hope that future interns will be able to use our application so that they can
 
 ####Developed By:
 
-Omar Mujahid
-Brett Lyle
-Kayla Kasprak
+Omar Mujahid 
+Brett Lyle 
+Kayla Kasprak 
 Jason Cheng
