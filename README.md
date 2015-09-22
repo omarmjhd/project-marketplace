@@ -6,6 +6,7 @@ Project Marketplace is an application that we developed to fix an issue that we 
 
 ##How it works
 Project Marketplace consists of three main components:
+
 1. Intern Profiles
 2. Manager Profiles
 3. Open Projects Page
