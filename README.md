@@ -6,9 +6,9 @@ Project Marketplace is an application that we developed to fix an issue that we 
 
 ##How it works
 Project Marketplace consists of three main components:
-	1. Intern Profiles
-	2. Manager Profiles
-	3. Open Projects Page
+1. Intern Profiles
+2. Manager Profiles
+3. Open Projects Page
 
 Both interns and managers have individual profiles that list their skills, the amount of time they have, or the type of intern they are looking for. Once an intern or a manager has created a profile, they can check the Open Projects page and search for projects matching their time available, or skills. Managers can post open projects, and can search for interns with specific skills to carry out their project.
 
