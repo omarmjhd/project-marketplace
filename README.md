@@ -16,7 +16,7 @@ Both interns and managers have individual profiles that list their skills, the a
 We hope that future interns will be able to use our application so that they can have more fulfilling and fun internships while at Boeing.
 
 
-Developed By:
+####Developed By:
 
 Omar Mujahid
 Brett Lyle
